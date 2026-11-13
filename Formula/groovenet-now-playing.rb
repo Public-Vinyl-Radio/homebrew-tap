@@ -3,8 +3,8 @@ class GroovenetNowPlaying < Formula
   homepage "https://github.com/Public-Vinyl-Radio/groovenet"
   # The groovenet release workflow rewrites the url and sha256 lines here and in
   # the resource after each player release; keep one of each per block.
-  url "https://registry.npmjs.org/@groovenet/player/-/player-0.1.12.tgz"
-  sha256 "1524b9442c401f090ce60a0d18a56ca492c9d2d83680a88d72471c38bb18ef22"
+  url "https://registry.npmjs.org/@groovenet/player/-/player-0.1.13.tgz"
+  sha256 "7f4f396a5072966f52ec9dbe1812d6ad36d34975daaf6a47587d13bdc8d71345"
   license "MIT"
 
   depends_on macos: :ventura
@@ -13,8 +13,8 @@ class GroovenetNowPlaying < Formula
   # The prebuilt, ad-hoc signed helper app from the same player release, so
   # installing needs no Xcode.
   resource "app" do
-    url "https://github.com/Public-Vinyl-Radio/groovenet/releases/download/groovenet-player-v0.1.12/groovenet-now-playing-0.1.12-macos-universal.zip"
-    sha256 "ab0452c604bb5395b1fb1e8479f267cbde03eac4b66dc4da123f7c5154ca74dd"
+    url "https://github.com/Public-Vinyl-Radio/groovenet/releases/download/groovenet-player-v0.1.13/groovenet-now-playing-0.1.13-macos-universal.zip"
+    sha256 "67c74b56c0ea3c7738cbd55330883bf02335e8b0e9b3ff17f988da5363a0a4ea"
   end
 
   APP = "Groovenet Now Playing.app".freeze
